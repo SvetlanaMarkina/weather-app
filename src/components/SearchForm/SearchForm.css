@@ -1,0 +1,45 @@
+.searchForm {
+    display: flex;
+    margin-top: 20px;
+}
+
+.inputCity {
+    display: flex;
+}
+
+input {
+    outline: none;
+    border: none;
+    background-color: rgba(55, 171, 144, 0.5);
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 20px;
+}
+
+span {
+    color: white;
+    font-size: 23px;
+}
+
+button {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.spanNoFound {
+    color: rgb(217, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -140px;
+
+}
+

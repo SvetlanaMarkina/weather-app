@@ -1,0 +1,46 @@
+.weather {
+    position: absolute;
+    bottom: 200px;
+    color: white;
+    background: rgba(81, 63, 148, 0.3);
+    padding: 20px 10px;
+    border-radius: 42px;
+    border: 3px outset white;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.temp {
+    font-size: 120px;
+}
+
+.info {
+    max-width: 300px;
+}
+
+.city {
+    font-size: 50px;
+}
+
+.date {
+    font-size: 26px;
+    max-width: 200px;
+}
+
+.weatherIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherIcon svg {
+    margin-bottom: 8px;
+    width: 90px;
+    height: 90px;
+}
+
+.weatherIcon svg  {
+    font-size: 30px;
+}
+

@@ -1,0 +1,57 @@
+.daysWeather {
+    position: absolute;
+    bottom: 255px;
+    left: 269px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.weatherCity {
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-shadow: rgb(131, 118, 118) 0 0 4px;
+}
+
+.weatherList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weatherItem {
+    box-sizing: border-box;
+    background: rgba(81, 63, 148, 0.3);
+    padding: 20px 5px;
+    border-radius: 42px;
+    width: 190px;
+    border: 3px outset white;
+}
+
+.weatherItem__date {
+    font-size: 20px;
+    color: #f6f799;
+    text-align: center;
+}
+
+.weatherItem__temp {
+    font-size: 45px;
+    text-align: center;
+    color: #f6f799;
+    margin-top: 5px;
+}
+
+.weatherItem__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherItem__icon span {
+    color: #f6f799;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.weatherItem-now {
+    background-color: #37ab90;
+    width: 180px;
+}

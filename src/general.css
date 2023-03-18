@@ -1,0 +1,29 @@
+body {
+    background: #2e8d9b;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-size: 14px;
+    padding-bottom: 50px;
+    overflow-x: hidden;
+  }
+  
+  .wrap {
+    box-sizing: border-box;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  input {
+    margin: 0;
+    padding: 0;
+  }

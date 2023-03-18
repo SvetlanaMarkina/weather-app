@@ -1,0 +1,115 @@
+@media (max-width: 1450px) {
+    .daysWeather {
+        left: 230px;
+    }
+}
+
+@media (max-width: 1410px) {
+    .weatherItem-now {
+        width: 134px;
+    }
+    .weatherItem {
+        border-radius: 23px
+    }
+}
+
+@media (max-width: 1360px) {
+    .weatherCity {
+        font-size: 46px;
+    }
+    .weatherItem {
+        width: 170px;
+    }
+}
+
+@media (max-width: 1320px) {
+    .weatherItem {
+        width: 150px;
+    }
+}
+
+@media (max-width: 1220px) {
+    .weatherItem {
+        width: 140px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .weatherItem {
+        width: 130px;
+    }
+    .daysWeather {
+        left: 200px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .weatherItem {
+        width: 100px;
+    }
+    .weatherItem {
+        border-radius: 15px
+    }
+}
+
+@media (max-width: 900px) {
+    .daysWeather {
+        left: 160px;
+    }
+    .weatherCity {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 830px) {
+    .daysWeather {
+        left: 150px;
+    }
+    .weatherItem {
+        width: 90px;
+    }
+}
+
+@media (max-width: 750px) {
+    .weather {
+        width: 400px;
+    }
+    .temp {
+        font-size: 86px;
+    }
+    .temp {
+        font-size: 34px;
+    }
+    .weatherItem {
+        width: 80px;
+    }
+}
+
+@media (max-width: 690px) {
+    .daysWeather {
+        left: 110px;
+        bottom: 237px;
+    }
+    .weatherItem {
+        width: 70px;
+    }
+}
+
+@media (max-width: 580px) {
+    .city {
+        font-size: 35px;
+    }
+    .weather {
+        width: 303px;
+    }
+    .daysWeather {
+        left: 104px;
+        bottom: 210px;
+    }
+    .weatherItem__temp {
+        font-size: 28px;
+    }
+}
+
+
+
